@@ -1,2 +1,3 @@
-# Education-UNI-and-others-
-Simple repo for a simple profile navigation!
+# Education
+Education stuff!
+
