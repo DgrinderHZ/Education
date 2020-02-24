@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="805234C6-479B-E9E1-D15E-E3D0B75848C9" name="HASSAN" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.SchemaObject" propertyParentId="0B59747B-B92E-9C23-D8B5-1910BCB66633" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="F166C437-2768-7D9E-CDB7-8B6ECC58E6B0" name="BUDGET" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="0B59747B-B92E-9C23-D8B5-1910BCB66633" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="4A6FC705-5127-E132-9D37-2518F066676D" name="PILOTE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="0B59747B-B92E-9C23-D8B5-1910BCB66633" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F166C437-2768-7D9E-CDB7-8B6ECC58E6B0" schemaObject="805234C6-479B-E9E1-D15E-E3D0B75848C9" name="BUDGET">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+<importedID>F4975B82-AA6D-C62F-7338-AA04FD2BCF9A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUM_OPERATION" id="0B289E83-D373-A47A-B5DF-52A16413AF7D">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+<importedID>6EE17101-C671-1C06-8D1D-6B1BE783F527</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM_OPERATION" id="A5D85048-096D-64AC-1A7E-266C910BCB37">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+<importedID>C265B70A-EE93-A746-4321-80C1E52E4A0B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIE" id="3093B4A0-FD9F-6CAD-FEF6-AD2C3D925F88">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+<importedID>EB500D83-2766-4D31-63DE-F2058BC710AD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_OPERATION" id="E0456F5B-63CA-8D03-37DD-0557BF0DE8B4">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+<importedID>61E7627B-D309-ECB7-BF6A-DD5BAB62CFB1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTANT" id="66849B1D-0E3F-E3E4-FFD8-C2F195B9D82E">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+<importedID>D34C2EFB-28F9-4B9F-D63A-99FF1EC6227A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOLDE" id="14DD34F3-81D0-37B1-8E6C-F758D7E696BE">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+<importedID>9EA62C37-5073-905A-FB09-A9984D540D05</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="71DAE70B-BFC0-FA74-82DB-CE26EE631141" schemaObject="805234C6-479B-E9E1-D15E-E3D0B75848C9" name="BUDGET_PK">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+<importedID>D2F5CB1F-A7B2-2E5C-5E37-D918FE902B09</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B289E83-D373-A47A-B5DF-52A16413AF7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

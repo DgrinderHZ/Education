@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="bb" id="3F92D2DF-620C-AFB1-DD67-DD58BB741F61" version="3.5">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:48:14 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3F92D2DF-620C-AFB1-DD67-DD58BB741F61</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="CFF56FC2-55A8-D9C6-C599-B33C88A2FCCF">
+<designStoragePath>C:\</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

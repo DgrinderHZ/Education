@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PILOTE" directorySegmentName="seg_0" id="4A6FC705-5127-E132-9D37-2518F066676D">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+<schemaObject>805234C6-479B-E9E1-D15E-E3D0B75848C9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4B258962-A56E-81A9-943C-1D3ADDA91EF9</segment>
+<tableSpace>ECEA9FA9-BC0A-BB2E-B01A-C24D1679888B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SALAIRE" id="52AAD98F-FDD0-1DCC-0B0E-034297EC98BD">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VILLE" id="5CFD8A3C-A9FB-5996-CDDF-3C01693E95C1">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOM" id="7709963A-485C-B1A5-2299-AA66828A49A2">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AGE" id="AEA72624-EE66-75AD-178F-D03B73A07927">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MATRICULE" id="C5CB7B6A-8437-968F-B0AA-A3B78667A2D8">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PILOTE_PK" id="A8B42931-AA87-9EDE-4288-AFFF9EAB4F6D">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+<schemaObject>805234C6-479B-E9E1-D15E-E3D0B75848C9</schemaObject>
+<segment>262D28D0-6C8B-6F14-BD51-A2C443AF98FB</segment>
+<tableSpace>ECEA9FA9-BC0A-BB2E-B01A-C24D1679888B</tableSpace>
+<indexSegment>262D28D0-6C8B-6F14-BD51-A2C443AF98FB</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

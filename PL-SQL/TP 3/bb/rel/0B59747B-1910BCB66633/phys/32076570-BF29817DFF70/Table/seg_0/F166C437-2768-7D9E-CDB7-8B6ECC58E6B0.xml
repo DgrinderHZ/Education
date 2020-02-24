@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="BUDGET" directorySegmentName="seg_0" id="F166C437-2768-7D9E-CDB7-8B6ECC58E6B0">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+<schemaObject>805234C6-479B-E9E1-D15E-E3D0B75848C9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4B258962-A56E-81A9-943C-1D3ADDA91EF9</segment>
+<tableSpace>ECEA9FA9-BC0A-BB2E-B01A-C24D1679888B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NUM_OPERATION" id="0B289E83-D373-A47A-B5DF-52A16413AF7D">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SOLDE" id="14DD34F3-81D0-37B1-8E6C-F758D7E696BE">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CATEGORIE" id="3093B4A0-FD9F-6CAD-FEF6-AD2C3D925F88">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONTANT" id="66849B1D-0E3F-E3E4-FFD8-C2F195B9D82E">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOM_OPERATION" id="A5D85048-096D-64AC-1A7E-266C910BCB37">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_OPERATION" id="E0456F5B-63CA-8D03-37DD-0557BF0DE8B4">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BUDGET_PK" id="71DAE70B-BFC0-FA74-82DB-CE26EE631141">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+<schemaObject>805234C6-479B-E9E1-D15E-E3D0B75848C9</schemaObject>
+<segment>262D28D0-6C8B-6F14-BD51-A2C443AF98FB</segment>
+<tableSpace>ECEA9FA9-BC0A-BB2E-B01A-C24D1679888B</tableSpace>
+<indexSegment>262D28D0-6C8B-6F14-BD51-A2C443AF98FB</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="tp3" id="D4015D31-E75C-4834-9BA8-8BC71E0827DE">
+<createdBy>elitebook</createdBy>
+<modifiedBy>elitebook</modifiedBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="4A6FC705-5127-E132-9D37-2518F066676D" otype="Table" vid="B2089115-85AD-12F5-CFCA-4B3DA29B972D">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="60" y="70" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="F166C437-2768-7D9E-CDB7-8B6ECC58E6B0" otype="Table" vid="D54FF457-5B56-B817-AB34-7257EFE911A2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="50" y="50" width="170" height="110"/>
+</OView>
+</objectViews>
+</Diagram>

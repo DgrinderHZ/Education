@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="tp3" id="0B59747B-B92E-9C23-D8B5-1910BCB66633" mainViewID="D4015D31-E75C-4834-9BA8-8BC71E0827DE">
+<createdBy>elitebook</createdBy>
+<createdTime>2019-12-16 02:51:49 UTC</createdTime>
+<ownerDesignName>bb</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
