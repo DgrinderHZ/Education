@@ -137,4 +137,51 @@ users = execute_read_query(connection, select_users)
 
 for user in users:
     print(user)
-              
+
+select_posts_comments_users = """
+SELECT
+  posts.description as post,
+  text as comment,
+  name
+FROM
+  posts
+  INNER JOIN comments ON posts.id = comments.post_id
+  INNER JOIN users ON users.id = comments.user_id
+"""
+
+posts_comments_users = execute_read_query(
+    connection, select_posts_comments_users
+)
+
+for posts_comments_user in posts_comments_users:
+    print(posts_comments_user)
+
+# To return column names, you can use the .description attribute of the cursor object.
+cursor = connection.cursor()
+cursor.execute(select_posts_comments_users)
+cursor.fetchall()
+
+column_names = [description[0] for description in cursor.description]
+print(column_names)
+
+# Updating Table Records
+select_post_description = "SELECT description FROM posts WHERE id = 2"
+
+post_description = execute_read_query(connection, select_post_description)
+
+for description in post_description:
+    print(description)
+
+update_post_description = """
+UPDATE
+  posts
+SET
+  description = "The weather has become pleasant now"
+WHERE
+  id = 2
+"""
+
+execute_query(connection, update_post_description)
+# Deleting Table Records
+delete_comment = "DELETE FROM comments WHERE id = 5"
+execute_query(connection, delete_comment)
