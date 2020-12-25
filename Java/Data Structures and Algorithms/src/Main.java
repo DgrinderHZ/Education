@@ -7,7 +7,7 @@ public class Main {
         int N;
         System.out.println( "Give N:" );
         N = input.nextInt();
-        QuickFindUF uf = new QuickFindUF( N );
+        QuickUnionUF uf = new QuickUnionUF( N );
         uf.print();
         System.out.println( uf.connected( 1, 2 ) );
         uf.union(1, 2);
