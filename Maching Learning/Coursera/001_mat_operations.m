@@ -25,3 +25,19 @@ v = [1; 1; 1]
 
 % Multiply A * v
 Cv = C * v
+
+% Initialize a 3 by 3 identity matrix
+I = eye(3)
+
+% What happens when we multiply I*C ? 
+IC = I*C
+
+% Update A
+A = [1, 2, 4; 5, 3, 2; 1, 2, 4]
+% Compute C*A 
+CA = C*A 
+
+% Is it equal to A*C? 
+AC = A*C
+
+% Note that IC = CI but AC != CA not commutative
