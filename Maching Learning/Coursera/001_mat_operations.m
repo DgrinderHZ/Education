@@ -33,11 +33,20 @@ I = eye(3)
 IC = I*C
 
 % Update A
-A = [1, 2, 4; 5, 3, 2; 1, 2, 4]
+A = [1, 2, 4; 5, 3, 2; 1, 2, 3]
 % Compute C*A 
 CA = C*A 
 
 % Is it equal to A*C? 
 AC = A*C
 
-% Note that IC = CI but AC != CA not commutative
+% Note that IC = CI but AC != CA not commutative!
+
+% Transpose A 
+A_trans = A' 
+
+% Take the inverse of A 
+A_inv = inv(A)
+
+% What is A^(-1)*A? 
+A_invA = inv(A)*A
